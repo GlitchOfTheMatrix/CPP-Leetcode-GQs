@@ -41,12 +41,17 @@ void recursive_bbs(int arr[], int n)
 int main()
 {
     int n;
+    cout << "Enter the number of elements: ";
     cin >> n;
+    cout << endl;
+    cout << "Enter the elements: ";
     int arr[n];
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
+    cout << endl;
+    cout << "Sorted array using Bubble Sort: ";
     bubble_sort(arr, n);
     recursive_bbs(arr, n);
     for (int i = 0; i < n; i++)
