@@ -38,8 +38,8 @@ int main()
     {
         cin >> arr[i];
     }
-    selection_sort(arr, n);
     cout << endl;
+    selection_sort(arr, n);
     cout << "Sorted elements: ";
     for (int i = 0; i < n; i++)
     {
